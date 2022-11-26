@@ -175,3 +175,32 @@
 //     }
 //     println!("LIFTOFF!!!");
 // }
+use std::io;
+
+// fn main() {
+//     let mut sıcaklık =String::new();
+//     println!("C sıcaklık değeri giriniz:");
+//     io::stdin().read_line(&mut sıcaklık).expect("msg");
+//     let sıcaklık:f64=sıcaklık.trim().parse().expect("msg");
+//     let sıcaklık = sıcaklık*1.8+32.0;
+//     println!("{sıcaklık}")
+
+
+
+// }
+// fn main() {
+//     let mut sayı1=0;
+//     let mut sayı2=1;
+//     let mut kacdefa=String::new();
+//     println!("fibonacci nin ilk kaç sayısı:");
+//     io::stdin().read_line(&mut kacdefa).expect("msg");
+//     let kacdefa:i64 = kacdefa.trim().parse().expect("msg");
+//     println!("1={sayı2}");
+//     for i in 2..kacdefa+1{
+//         let sayı= sayı2;
+//         sayı2+=sayı1;
+//         sayı1=sayı;
+//         println!("{i}={sayı2}")
+//     }
+
+// }
