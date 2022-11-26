@@ -45,8 +45,21 @@
 //     println!{"x in değeri{x}"}
 // }
 
-fn main(){
-    let boşluk = "      ";
-    let boşluk = boşluk.len();
-    println!("boşluk sayısı {boşluk}")
-}
+// fn main(){
+//     let boşluk = "      ";
+//     let boşluk = boşluk.len();
+//     println!("boşluk sayısı {boşluk}")
+// }
+
+
+// fn main(){
+//     let sayi:u32="43".parse().expect("sayı bulunamadı");
+//     println!("{sayi}")
+// }
+// fn main()  {
+//        let say:&str="dadwdwadawda2143123124214dawdawdawd2q31rd123414c21vc4 2134 124 1241242134123daw";
+//        println!("{}",say.len())
+    
+    
+//     }
+
