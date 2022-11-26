@@ -62,4 +62,60 @@
     
     
 //     }
+// fn main(){
+//     let say:i128=123133333324;
+//     println!("{}",say);
+//     print!("dawdwa")
+// }
+
+// fn main(){
+//     let x:f32=1.4;
+//     let y :f32=9.5;
+//     print!("{x}\n");
+//     print!("{y}")
+
+// }
+// fn main(){
+//     let a = 49-33;
+//     let b:f64 = 23.8-33.0;
+//     print!("{b}");
+//     print!("{a}")
+// }
+// fn main() {
+//     let sayilar:(f64,i64,i8)= (12.2,4231,2);
+//     let (c,v,b)=sayilar;
+//     print!("{},{},{}\n",c,v,b);
+//     print!("{},{},{}",sayilar.0,sayilar.1,sayilar.2);
+// }
+// fn main() {
+    
+//     let a =[1,2,3,4,5];
+//     print!("{}",a[1]);
+//     let sayilar=12;
+    
+    
+// }
+// use std::io;
+
+// fn main() {
+//     let a:[i32;6]=[1,2,3,4,5,6];
+//     println!("bir sayı giriniz");
+//     let mut index:String=String::new();
+//     io::stdin().read_line(&mut index)
+//     .expect("msgdwa");
+//     let index:usize=index.trim().parse().expect("msgdwa");
+//     let eleman:i32 = a[index];
+//     print!("{}",eleman);
+    
+    
+// }
+
+// fn degerler() {
+//     println!("değerler");
+    
+// }
+fn main() {
+    println!("sayılar");
+    // degerler();
+}
 
