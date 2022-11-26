@@ -113,9 +113,65 @@
 // fn degerler() {
 //     println!("değerler");
     
+// // }
+// fn main() {
+//     println!("sayılar");
+//     // degerler();
+//     deneme(34,'a');
 // }
-fn main() {
-    println!("sayılar");
-    // degerler();
-}
+// fn deneme(a:i32,b:char){
+// println!("{a}");
+// println!("{b}");
+// println!("{c}");
+// }
+// fn main() {
+//     print_labeled_measurement(5, 'h');
+// }
 
+// fn print_labeled_measurement(value: i32, unit_label: char) {
+//     println!("The measurement is: {value}{unit_label}");
+// }
+
+// fn main() {
+//     let y = {
+//         let x = 3;
+//         x + 1
+//     };
+
+//     println!("The value of y is: {y}");
+// // }
+// use std::io;
+// fn main(){
+//     println!("bir sayı giriniz");
+//     let mut a = String::new();
+//     io::stdin().read_line(&mut a).expect("msg");
+//     let a:usize=a.trim().parse().expect("msg");
+//     if a>10{
+//         println!("{a}sayısı 10 dan büyük")
+//     } else if a==9{
+//         println!("dawd")
+//     }   else{
+//         println!("{a}sayısı 10 dan küçük")
+//     }
+// }
+
+// fn main() {
+//     let mut counter = 0;
+//     let sayi =loop{
+//         counter+=1;
+//         if counter==10{
+            
+//             break counter*20 ;
+//         }
+//     };
+//     println!("{sayi}");
+//     println!("{counter}")
+
+// }
+
+// fn main() {
+//     for number in (1..10) {
+//         println!("{number}!");
+//     }
+//     println!("LIFTOFF!!!");
+// }
