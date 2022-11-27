@@ -449,3 +449,80 @@
 // }
 
 
+// enum Ipadd {
+//     V4,V6,
+    
+// }
+// struct  Ip {
+//     kind:Ipadd,
+//     addres:String,
+// }
+
+// fn main() {
+//     let ev =Ip{
+//         kind:Ipadd::V4,
+//         addres:String::from("127.0.0.1")
+
+
+//     };
+
+//     let office=Ip{
+//         kind:Ipadd::V6,
+//         addres:String::from("::1")
+//     };
+// }
+
+// use std::io;
+// fn main() {
+//     let s = "merhaba".to_string();
+//      ekle(&s);
+//     println!("{}", s);    
+     
+// }
+
+// fn ekle(s:&str)-> String {
+//     let a:&str = s.push("asd");
+//     let mut b =String::new() ;
+//     io::stdin().read_line(&mut b).expect("msg");
+//     println!("{}",b);
+//     println!("{}",a );
+//      a+&b
+    
+// }
+// #[derive(Debug)]
+// struct Veri1{
+//     isim:String,
+//     email:String,
+//     number:i64,
+//     text:String,
+//     adressno:i16,
+//     ipadres:(i8,i8,i8,i8),
+// }
+// impl Veri1 {
+//     fn ekleme(&self) {
+//         let a:String = self.email+&str self.isim;
+//         // let ek=self.email+self.isim;
+//         println!("{:?}",a  );
+//     }
+// }
+
+// fn main() {
+//     let veriler =Veri1{
+//         isim:String::from("enes"),
+//         email:String::from("enes@fsdas"),
+
+//     number:312312,
+//     text:String::from("yarın hazır"),
+//     adressno:345,
+//     ipadres:(127,0,0,1),
+
+//     };
+//     veriler.ekleme();
+//     // let veriler =Veri1{
+//     //     isim:String::from("enes goktas"),
+//     //     ..veriler
+//     // };
+//     // (dbg!(veriler));
+
+
+// }
