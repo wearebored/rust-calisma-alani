@@ -418,28 +418,34 @@
 //     dbg!(&rect1);
 // }
 
-#[derive(Debug)]
-struct Rectangle {
-    w: u32,
-    h: u32,
-    a:u32,
-}
+// #[derive(Debug)]
+// struct Rectangle {
+//     w: u32,
+//     h: u32,
+//     a:u32,
+// }
 
-impl Rectangle {
-    fn area(&self) -> u32 {
-        self.w * self.h*2*self.a
-    }
-}
+// impl Rectangle {
+//     fn area(self) -> u32 {
+//         self.w * self.h*2*self.a
+//     }
+// }
 
-fn main() {
-    let rect1 = Rectangle {
-        w: 30,
-        h: 50,
-        a:2
-    };
-   dbg!(&rect1);
-    println!(
-        "The area of the rectangle is {} square pixels.",
-        rect1.area()
-    );
-}
+// fn main() {
+//     let rect1 = Rectangle {
+//         w: 30,
+//         h: 50,
+//         a:2
+//     };
+//     let rect1=rect1.area();
+ 
+//    dbg!(&rect1);
+//     println!(
+//         "The area of the rectangle is {} square pixels.",
+//         rect1
+//     );
+// //    dbg!(&rect1);
+
+// }
+
+
