@@ -480,7 +480,7 @@
      
 // }
 
-use std::ops::Add;
+
 
 // fn ekle(s:&str)-> String {
 //     let a:&str = s.push("asd");
@@ -491,44 +491,44 @@ use std::ops::Add;
 //      a+&b
     
 // }
-#[derive(Debug)]
-struct Veri1{
-    isim:String,
-    email:String,
-    number:i64,
-    text:String,
-    adressno:i16,
-    ipadres:(i8,i8,i8,i8),
-}
-impl Veri1 {
-    fn ekleme(&self) {
-        let a:String = self.email.to_string()+&self.isim;
-        let b = self.number;
+// #[derive(Debug,Default)]
+// struct Veri1{
+//     isim:String,
+//     email:String,
+//     number:i64,
+//     text:String,
+//     adressno:i32,
+//     ipadres:(i8,i8,i8,i8),
+// }
+// impl Veri1 {
+//     fn ekleme(&self) {
+//         let a:String = self.email.to_string()+&self.isim;
+//         let y:i64 =self.adressno.into();
+//         let b = self.number+y;
         
-println!("{}",b );
-        // let a= a.add(&self.isim);
-        // let ek=self.email+self.isim;
-        println!("{:?}",a  );
-    }
-}
+//         println!("{}",b );
+//         // let a= a.add(&self.isim);
+//         // let ek=self.email+self.isim;
+//         println!("{:?}",a  );
+//     }
+// }
 
-fn main() {
-    let veriler =Veri1{
-        isim:String::from("enes"),
-        email:String::from("enes@fsdas"),
+// fn main() {
+//     let veriler =Veri1{
+//         isim:String::from("enes"),
+//         email:String::from("enes@fsdas"),
+//         number:312312,
+//         // text:String::from("yarın hazır"),
+//         adressno:345,
+//         // ipadres:(127,0,0,1),
+//         ..Default::default()
+//     };
+//     veriler.ekleme();
+//     // let veriler =Veri1{
+//     //     isim:String::from("enes goktas"),
+//     //     ..veriler
+//     // };
+//     (dbg!(veriler));
 
-    number:312312,
-    text:String::from("yarın hazır"),
-    adressno:345,
-    ipadres:(127,0,0,1),
 
-    };
-    veriler.ekleme();
-    // let veriler =Veri1{
-    //     isim:String::from("enes goktas"),
-    //     ..veriler
-    // };
-    // (dbg!(veriler));
-
-
-}
+// }
