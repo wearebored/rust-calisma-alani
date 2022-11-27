@@ -274,3 +274,79 @@
 //     println!("{}", r3);
    
 // }
+
+// fn main() {
+//     let kelime = String::from("keliadw  awdawd awd ");
+//     let bosluk =boslukbul(&kelime);
+//     // println!("{bosluk}")
+// }
+
+// fn boslukbul(s:&String)-> usize {
+//     let ayrılmıs =s.as_bytes();
+//     ayrılmıs
+
+// }
+
+// fn main() {
+//     let kelime =String::from("123 123  321 efg  ");
+//     let ayrılmıs=kelime.as_bytes();
+  
+//   for (i,&item) in ayrılmıs.iter().enumerate(){
+
+//         if item == b' '{
+//         //    println!("{i}");
+//         // return i;
+//         break
+//         }
+//         // println!("{item}");
+//         // println!("{i}")
+        
+//     };
+//     println!("{}",ayrılmıs.len());
+// // println!("{a}")
+//     // println!("{ayrılmıs}");
+
+
+// }
+
+
+// fn main() {
+//     let s = String::from("hello");
+//     let ilk = &s[0..2];
+//     println!("{ilk}");
+//     println!("{s}")
+
+// }
+
+// fn main() {
+//     let my_string = String::from("hello world");
+
+//     // `first_word` works on slices of `String`s, whether partial or whole
+//     let word = first_word(&my_string[0..6]);
+//     let word = first_word(&my_string[..]);
+//     // `first_word` also works on references to `String`s, which are equivalent
+//     // to whole slices of `String`s
+//     let word = first_word(&my_string);
+//     println!("{}",word)
+
+//     // let my_string_literal = "hello world";
+
+//     // `first_word` works on slices of string literals, whether partial or whole
+//     // let word = first_word(&my_string_literal[0..6]);
+//     // let word = first_word(&my_string_literal[..]);
+
+//     // Because string literals *are* string slices already,
+//     // this works too, without the slice syntax!
+//     // let word = first_word(my_string_literal);
+// }
+
+// fn main() {
+//     let a = [1,2,3,4,5,6,7,8];
+//     let b = &a[0..4];
+//     let c =&[2,10];
+//     for i in c{
+//         println!("{i}");
+//     }
+
+
+// }
