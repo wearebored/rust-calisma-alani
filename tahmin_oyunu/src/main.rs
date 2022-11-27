@@ -350,3 +350,70 @@
 
 
 // }
+
+// struct User {
+//     active: bool,
+//     username: String::from("sd"),
+//     email: &str,
+//     sign_in_count: u64,
+// }
+
+// fn main() {
+//     let user1 = User {
+//         email: "someone@example.com",
+//         username: "someusername123",
+//         active: true,
+//         sign_in_count: 1,
+//     };
+// }
+
+// fn main() {
+    
+//     let h= 20;
+//     let w=10;
+//     println!("verilen düzgün dörtgenin alanı {} birimdir",area(h,w));
+// }
+// fn area(h:u32,w:u32)->u32 {
+//     h*w
+// }
+// #[derive(Debug)]
+// struct Lis{
+// mail: u32,
+//         değer:u32,
+//         hazır: u32,
+
+// }
+// fn main() {
+//     let liste =Lis{
+//         mail:2,
+//         değer:4,
+//         hazır:5,
+//     };
+//     println!("{:?}",liste)
+
+
+// }
+// // #[derive(Debug)]
+// fn main() {
+//     let liste =[1,2,3,4,5,6];
+//     println!("{:?}",liste)
+
+
+// }
+
+// #[derive(Debug)]
+// struct Rectangle {
+//     width: u32,
+//     height: u32,
+// }
+
+// fn main() {
+//     let scale = 2;
+//     let rect1 = Rectangle {
+//         width: dbg!(30 * scale),
+//         height: 50,
+//     };
+//     let arra=[1,2,3,4,5,6,7,8];
+//     dbg!(arra);
+//     dbg!(&rect1);
+// }
