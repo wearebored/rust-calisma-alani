@@ -175,7 +175,7 @@
 //     }
 //     println!("LIFTOFF!!!");
 // }
-use std::io;
+// use std::io;
 
 // fn main() {
 //     let mut sıcaklık =String::new();
@@ -203,4 +203,74 @@ use std::io;
 //         println!("{i}={sayı2}")
 //     }
 
+// }
+
+
+
+// fn main() {
+//     let mut s= String::from("hello");
+//     s.push_str(", world");
+//     println!("{}",s)
+// }
+// fn main() {
+//     let x=5;
+//     let y=x;
+//     let x =10;
+//     println!("{x}");
+//     println!("{y}")
+// }
+// fn main() {
+//      let s1 = String::from("hello");
+//      println!("{s1}");
+//     let s2 = s1;
+    
+//     // println!("{s1}");
+//     println!("{s2}")
+// }
+// fn main() {
+//      let s1 = String::from("hello");
+//     //  println!("{s1}");
+//     let s2 = s1.clone();
+    
+//     println!("{s1}");
+//     println!("{s2}")
+// }
+
+
+// fn main() {
+//     let s1=String::from("hello");
+//     let (s2,len)=karaktersay(s1);
+//     println!("{s2},{len}");
+
+    
+// }
+
+// fn karaktersay(s:String)->(String,usize) {
+//     let len = s.len();
+//     (s,len)
+    
+// }
+
+
+// fn main() {
+//     let s1=String::from("hello");
+//     let len =karaktersay(&s1);
+//     println!("{s1},{len}");
+
+// }
+// fn karaktersay(s1:&String)->usize {
+//     s1.len()
+// }
+
+// fn main() {
+//      let mut s = String::from("hello");
+
+//     let r1 = &s; // no problem
+//     let r2 = &s; // no problem
+//     println!("{} and {}", r1, r2);
+//     // variables r1 and r2 will not be used after this point
+
+//     let r3 = &mut s; // no problem
+//     println!("{}", r3);
+   
 // }
