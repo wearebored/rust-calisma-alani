@@ -532,3 +532,16 @@
 
 
 // }
+
+
+
+// fn main() {
+//     let mut v = vec![1,3,2,6,5,4,7];
+//     let u :Vec<_>=v.drain(2..5).collect();
+//     println!("{:?}",u);
+//     println!("{:?}",v)
+
+
+// }
+
+
